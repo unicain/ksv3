@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import portraitImg from "../assets/images/karen_schneider_portrait_1785193850755.jpg";
 
 export default function Hero() {
   const skills = [
@@ -113,7 +114,7 @@ export default function Hero() {
             {/* Profile image with custom border */}
             <div className="w-64 h-64 md:w-80 md:h-80 lg:w-[24rem] lg:h-[24rem] rounded-full overflow-hidden border-4 border-brand-dark shadow-2xl relative z-10">
               <img
-                src="/src/assets/images/karen_schneider_portrait_1785193850755.jpg"
+                src={portraitImg}
                 alt="Karen Schneider"
                 className="w-full h-full object-cover grayscale-[10%] hover:grayscale-0 transition-all duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"
