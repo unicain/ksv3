@@ -63,7 +63,7 @@ export default function Contact() {
             {/* LinkedIn & Location row */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <a
-                href="https://linkedin.com/in/karen-schneider"
+                href="https://www.linkedin.com/in/karen-schneider-12b64929"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4 group bg-white/5 border border-white/10 hover:bg-white hover:text-brand-gold-dark p-4 transition-all duration-300"

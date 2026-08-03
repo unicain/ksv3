@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import portraitImg from "../assets/images/karen_schneider_portrait_1785193850755.jpg";
+import portraitImg from "../assets/images/karen_portrait_navy_blue_1785787231032.jpg";
 
 export default function Hero() {
   const skills = [
